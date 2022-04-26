@@ -1,0 +1,15 @@
+.card__container {
+    overflow: hidden;
+    --card-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--card-bg-opacity));
+    --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--card-ring-offset-shadow, 0 0 #0000), var(--card-ring-shadow, 0 0 #0000), var(--card-shadow);
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+@media (min-width:640px) {
+    .card__container {
+        border-radius: .5rem
+    }
+}

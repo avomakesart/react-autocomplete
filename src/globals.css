@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --font-color: #0c0c0d;
+  --background-color: #a1c4fd;
+  --link-color: #1040c1;
+  --app-bg-opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+details {
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: block;
+  overflow-x: auto;
+}
+
+table td,
+table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border: 1px solid #dee2e6;
+  overflow: auto;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+
+img {
+  max-width: calc(min(700px, 100%));
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  color: var(--font-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-color);
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+p {
+  color: var(--font-color) !important;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+button,
+[role='button'] {
+  cursor: pointer;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*=============================================
+=                   Utils                     =
+=============================================*/
+
+
+.app-background {
+  background-image: url(assets/images/gradient.jpg);
+  background-size: 150rem;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: rgb(248 250 252/var(--app-bg-opacity));
+}
+
+.p-5 {
+  padding: 1rem;
+}
+
+.dflex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.avatar-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.75rem
+}
+
+
+/*=====  End of Utils  ======*/

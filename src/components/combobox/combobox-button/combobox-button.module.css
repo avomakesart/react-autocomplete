@@ -1,0 +1,25 @@
+.combobox__button-icon--container {
+    position: absolute;
+    top: 0;
+    bottom: 4px;
+    right: 0;
+    margin-left: .75rem;
+    display: flex;
+    align-items: center;
+    padding-right: .5rem
+}
+
+.combobox__button-icon {
+    --combobox-text-opacity: 1;
+    color: rgb(156 163 175 / var(--combobox-text-opacity));
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+@media (min-width:640px) {
+    .combobox__button {
+        font-size: .875rem;
+        line-height: 1.25rem
+    }
+}

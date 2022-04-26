@@ -1,0 +1,44 @@
+{
+  "name": "deel-react-auto-complete",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^27.4.1",
+    "@types/jest-axe": "^3.5.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "babel-plugin-dev-expression": "^0.2.3",
+    "babel-plugin-macros": "^3.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "jest-axe": "^6.0.0",
+    "jest-watch-typeahead": "^1.0.0",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5"
+  }
+}

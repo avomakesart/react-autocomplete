@@ -1,0 +1,8 @@
+.combobox_label {
+    display: flex;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    --combobox-text-opacity: 1;
+    color: rgb(45 55 72 / var(--combobox-text-opacity));
+}

@@ -1,0 +1,31 @@
+.combobox__input {
+    position: relative;
+    width: 100%;
+    cursor:text;
+    border-radius: .375rem;
+    border-width: 1px;
+    --combobox-border-opacity: 1;
+    border-color: rgba(209, 213, 219, var(--combobox-border-opacity));
+    --combobox-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--combobox-bg-opacity));
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 2.5rem;
+    padding-left: .75rem;
+    text-align: left;
+    --combobox-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--combobox-ring-offset-shadow, 0 0 #0000), var(--combobox-ring-shadow, 0 0 #0000), var(--combobox-shadow)
+}
+
+.combobox__input:focus {
+    --combobox-border-opacity: 1;
+    --combobox-bg-opacity: 1;
+    border-color: rgba(56, 189, 248, var(--combobox-border-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --combobox-ring-offset-shadow: var(--combobox-ring-inset) 0 0 0 var(--combobox-ring-offset-width) var(--combobox-ring-offset-color);
+    --combobox-ring-shadow: var(--combobox-ring-inset) 0 0 0 calc(1px + var(--combobox-ring-offset-width)) var(--combobox-ring-color);
+    box-shadow: var(--combobox-ring-offset-shadow), var(--combobox-ring-shadow), var(--combobox-shadow, 0 0 #0000);
+    --combobox-ring-opacity: 1;
+    --combobox-ring-color: rgba(99, 102, 241, var(--combobox-ring-opacity))
+}
